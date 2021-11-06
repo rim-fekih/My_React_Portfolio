@@ -16,9 +16,9 @@ import { mainBlue, mainGris } from "./assets/js/color";
 import cvPdf from "./assets/img/cvPdf.pdf";
 
 //import Reveal from "react-reveal/Reveal";
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-//import { faEnvelope, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const App = () => {
   return (
@@ -51,7 +51,7 @@ const App = () => {
                 only to find creative projects in various fields but also to
                 gain additional experience outside of her studies. I believe it
                 is an art to develop good software and that you have to be smart
-                and creative to be a good developer, a combination of these two
+                and creative to be a good one, a combination of these two
                 qualities made it possible to create my profile.
               </Text>
               <div className="button__cv">
@@ -304,11 +304,18 @@ const App = () => {
             <Title size="18px" fontWeight="400" textTransform="uppercase">
               My projects
             </Title>
-            <SubTitle size="25px"> Some previous project </SubTitle>
+            <SubTitle size="25px"> Some previous project : </SubTitle>
             <Text lineHeight="1.8">
+              Here you can take a look about my last Internship project : <br />
+              Mission: Design, development and deployment of a web application
+              for pastries . <br />
+              Technologies: Mern (mongoDb, express ,react js and node).
+            </Text>
+            <SubTitle size="15px"> Ps : </SubTitle>
+            <p>
               I am able to realize any web application that it is an e-shop, a
               showcase site or an application more complex .
-            </Text>
+            </p>
           </Col>
 
           <Col size="66.66%">
@@ -368,7 +375,10 @@ const App = () => {
                 width="80px"
                 alignItems="center"
                 borderRadius="40px"
-              ></Button>
+              >
+                <FontAwesomeIcon icon={faEnvelope} size="2x" />
+              </Button>
+
               <SubTitle
                 textAlign="center"
                 color="white"
@@ -390,7 +400,10 @@ const App = () => {
                 width="80px"
                 alignItems="center"
                 borderRadius="40px"
-              ></Button>
+              >
+                {" "}
+                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+              </Button>
               <SubTitle
                 textAlign="center"
                 color="white"
@@ -422,7 +435,10 @@ const App = () => {
           borderRadius: "25px",
           backgroundColor: mainGris,
         }}
-      ></Button>
+      >
+        {" "}
+        <FontAwesomeIcon icon={faArrowUp} />
+      </Button>
 
       {/* footer */}
 
