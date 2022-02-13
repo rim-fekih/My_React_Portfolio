@@ -38,7 +38,7 @@ const App = () => {
                 Hello 🙋‍♀️{" "}
                 <WrapColor color={mainBlue}>
                   {" "}
-                  I am a software engineering student.
+                  I am a junior software engineering.
                 </WrapColor>
               </SubTitle>
               <SubTitle size="3rem">RIM FEKIH</SubTitle>
@@ -47,7 +47,7 @@ const App = () => {
                 <WrapStyle fontWeight="bolder" fontStyle="italic">
                   the "Private School of Engineering and Technology" TEK-UP.
                 </WrapStyle>
-                . I am a beginner software developer who is always looking not
+                I am a beginner software developer who is always looking not
                 only to find creative projects in various fields but also to
                 gain additional experience outside of her studies. I believe it
                 is an art to develop good software and that you have to be smart
@@ -253,11 +253,12 @@ const App = () => {
                   "0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23)",
               }}
             >
-              <SubTitle size="25px">Java</SubTitle>
+              <SubTitle size="25px">Angular</SubTitle>
               <Text width="90%" size="15px" lineHeight="1.4">
-                Java is a high-level, class-based, object-oriented programming
-                language that is designed to have as few implementation
-                dependencies as possible.
+                Angular (commonly referred to as "Angular 2+" or "Angular CLI")
+                is a TypeScript-based free and open-source web application
+                framework led by the Angular Team at Google and by a community
+                of individuals and corporations
               </Text>
             </Card>
           </Col>
@@ -279,11 +280,12 @@ const App = () => {
               }}
             >
               {" "}
-              <SubTitle size="25px">Python 3 </SubTitle>
+              <SubTitle size="25px">Ionic </SubTitle>
               <Text width="90%" size="15px" lineHeight="1.4">
-                Python is an interpreted programming language, multi-paradigm
-                and multiplatform. It promotes structured, functional and
-                oriented imperative programming object
+                Ionic is a complete open-source SDK for hybrid mobile app
+                development created by Max Lynch, Ben Sperry, and Adam Bradley
+                of Drifty Co. in 2013. The original version was released in 2013
+                and built on top of AngularJS and Apache Cordova.
               </Text>
             </Card>
           </Col>
@@ -306,7 +308,8 @@ const App = () => {
             </Title>
             <SubTitle size="25px"> Some previous project : </SubTitle>
             <Text lineHeight="1.8">
-              Here you can take a look about my last Internship project : <br />
+              Here you can take a look about my internship project "JUNE 2 0 2 1
+              - SEPT 2 0 2 1 " : <br />
               Mission: Design, development and deployment of a web application
               for pastries . <br />
               Technologies: Mern (mongoDb, express ,react js and node).
@@ -327,7 +330,7 @@ const App = () => {
                     styled={{ src: sr, width: "90%" }}
                   ></Image>
                   <SubTitle size="20px" fontWeight="100">
-                    Last Internship
+                    Internship JUNE 2 0 2 1 - SEPT 2 0 2 1
                   </SubTitle>
                 </Col>
               </Flex>
